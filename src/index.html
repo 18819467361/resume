@@ -24,7 +24,7 @@
                 <p>Personal resume</p>
             </div>
         </div>
-        <div class="bg-info col-xs-4">
+        <div class="bg-info col-xs-4 text-center">
             <i class="iconfont">&#xe63a;</i>
             <i class="iconfont">&#xe624;</i>
             <i class="iconfont">&#xe691;</i>
@@ -43,17 +43,17 @@
         </div>
         <div class="collapse navbar-collapse" id="example-navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class=""><a href="#">基本信息</a></li>
-                <li><a href="#">教育背景</a></li>
-                <li><a href="#">工作经历</a></li>
-                <li><a href="#">技能证书</a></li>
-                <li><a href="#">项目经验</a></li>
-                <li><a href="#">自我评价</a></li>
+                <li class=""><a href="#base_info">基本信息</a></li>
+                <li><a href="#education">教育背景</a></li>
+                <li><a href="#workExp">工作经历</a></li>
+                <li><a href="#skill">技能证书</a></li>
+                <li><a href="#projectExp">项目经验</a></li>
+                <li><a href="#selfEvaluation">自我评价</a></li>
             </ul>
         </div>
     </nav>
     <div class="content">
-        <section id="base_info">
+        <section id="base_info ">
             <div class="title bg-primary">基本信息</div>
             <div class="row">
                 <div class="col-xs-8">
@@ -80,6 +80,9 @@
                         <tr>
                             <td>学历：本科</td>
                         </tr>
+                        <tr>
+                            <td>GitHub：<a href="https://github.com/18819467361?tab=repositories">https://github.com/18819467361?tab=repositories</a></td>
+                        </tr>
                         </tbody>
                     </table>
                 </div>
@@ -88,7 +91,7 @@
                 </div>
             </div>
         </section>
-        <section class="education">
+        <section id="education">
             <div class="title bg-primary">教育背景</div>
             <table class="table">
                 <tr>
@@ -98,7 +101,7 @@
                 </tr>
             </table>
         </section>
-        <section class="workExp">
+        <section id="workExp">
             <div class="title bg-primary">工作经验</div>
             <table class="table">
                 <tr>
@@ -146,64 +149,119 @@
                 </tr>
             </table>
         </section>
-        <section class="skill">
+        <section id="skill">
             <div class="title bg-primary">技能证书</div>
             <div class="row">
-                <div class="col-xs-2">html</div>
-                <div class="col-xs-10">
+                <small class="col-xs-3">HTML、CSS、JS、JQuery</small>
+                <div class="col-xs-9">
                     <div class="progress progress-striped">
                         <div class="progress-bar progress-bar-success" role="progressbar"
                              aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                             style="width: 90%;">
-                            <span class="sr-only">90% 掌握</span>
+                             style="width: 80%;">
+                            <span class="sr-only">80% 掌握</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-2">react</div>
-                <div class="col-xs-10">
+                <small class="col-xs-3">React、Bootstrap</small>
+                <div class="col-xs-9">
                     <div class="progress progress-striped">
                         <div class="progress-bar progress-bar-info" role="progressbar"
-                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                             style="width: 60%;">
-                            <span class="sr-only">90% 掌握</span>
+                             aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"
+                             style="width: 65%;">
+                            <span class="sr-only">65% 熟悉</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-2">jest</div>
-                <div class="col-xs-10">
+                <small class="col-xs-3">Webpack、Git、Jest</small>
+                <div class="col-xs-9">
                     <div class="progress progress-striped">
                         <div class="progress-bar progress-bar-warning" role="progressbar"
                              aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                             style="width: 90%;">
-                            <span class="sr-only">90% 掌握</span>
+                             style="width: 60%;">
+                            <span class="sr-only">60% 熟悉</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-2">html5</div>
-                <div class="col-xs-10">
+                <small class="col-xs-3">HTML5、CSS3、Node.js</small>
+                <div class="col-xs-9">
                     <div class="progress progress-striped">
                         <div class="progress-bar progress-bar-danger" role="progressbar"
                              aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                             style="width: 90%;">
-                            <span class="sr-only">90% 掌握</span>
+                             style="width: 35%;">
+                            <span>35%了解</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="projectExp">
+        <section id="projectExp">
             <div class="title bg-primary">项目经验</div>
-
+            <table class="table">
+                <thead>
+                    <tr>
+                       <th><a href="https://github.com/18819467361/doubanPocket" title="点击进入项目仓库">基于react的口袋豆瓣</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ol>
+                                <li>使用React+ES6开发</li>
+                                <li>实现功能：豆瓣API抓取数据、列表页展示、Tab切换类别、搜索框功能、点击item展示详情页、下拉刷新、拉到底部加载更多</li>
+                            </ol>
+                            <small>独立完成作品</small>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th><a href="https://github.com/18819467361/shootGame" title="点击进入项目仓库">基于canvas的H5射击小游戏</a></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <ol>
+                            <li>面向对象编程</li>
+                            <li>实现功能：键盘控制hero移动射击，monster左右移动到达边界则向下移动，多关卡</li>
+                        </ol>
+                        <small>独立完成作品</small>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th><a href="https://github.com/18819467361/t-mallDemo" title="点击进入项目仓库">仿天猫首页及产品详情页</a></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <ol>
+                            <li>静态页面</li>
+                            <li>实现功能：响应式、轮播图、产品筛选、tab选项卡、懒加载等</li>
+                        </ol>
+                        <small>独立完成作品</small>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
         </section>
-        <section class="selfEvaluation">
+        <section id="selfEvaluation">
             <div class="title bg-primary">自我评价</div>
-
+            <p>
+                我是一个踏实、耐心的人。工作上认真细致，有良好的文档书写及编码习惯，面对困难，有良好的承压能力，可以独立解决问题。能与同事友好交往，善于沟通，具有良好的团队合作精神。生活上，对新鲜事物充满好奇心，能够保持学习提升自身。
+            </p>
         </section>
     </div>
     <footer>
