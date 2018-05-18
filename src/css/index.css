@@ -17,18 +17,38 @@
 }
 
 .me{
+    max-width: 250px;
+    min-width: 100px;
     width:80%;
 }
 body{
-    padding: 30px;
 
+    padding: 10px;
+
+}
+
+.pageWrapper{
+    border:1px solid #a5a5a5;
+    /*width:800px;*/
+    margin:0 auto;
+    overflow: hidden;
 }
 header{
     overflow: hidden;
+    height:70px;
 }
 
 h1{
     border-right: 2px solid #fff;
+    padding-bottom: 1px;
+}
+
+.decorate{
+    height: 70px;
+}
+
+nav{
+    margin-bottom: 10px;
 }
 
 .fixNav{

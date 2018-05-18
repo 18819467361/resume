@@ -16,7 +16,7 @@ var Tool=(function () {
         } else {
             delay_act = setTimeout(function () {
                 fn.apply(that);
-                last = now;
+                // last = now;
                 that = undefined;
             }, interval);
         }
