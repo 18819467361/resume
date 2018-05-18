@@ -14,7 +14,7 @@
 </head>
 <body>
 <div class="pageWrapper">
-    <div class="row">
+    <div class="header row">
         <div class="bg-primary col-xs-8">
             <h1 class="col-xs-6 text-center">
                 个人简历
@@ -46,7 +46,7 @@
                 <li class=""><a href="#base_info">基本信息</a></li>
                 <li><a href="#education">教育背景</a></li>
                 <li><a href="#workExp">工作经历</a></li>
-                <li><a href="#skill">技能证书</a></li>
+                <li><a href="#skill">专业技能</a></li>
                 <li><a href="#projectExp">项目经验</a></li>
                 <li><a href="#selfEvaluation">自我评价</a></li>
             </ul>
@@ -150,52 +150,48 @@
             </table>
         </section>
         <section id="skill">
-            <div class="title bg-primary">技能证书</div>
-            <div class="row">
-                <small class="col-xs-3">HTML、CSS、JS、JQuery</small>
+            <div class="title bg-primary">专业技能</div>
+            <div class="row HTML">
+                <div class="skillType col-xs-3">HTML、CSS、JS、JQuery</div>
                 <div class="col-xs-9">
                     <div class="progress progress-striped">
                         <div class="progress-bar progress-bar-success" role="progressbar"
-                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                             style="width: 80%;">
-                            <span class="sr-only">80% 掌握</span>
+                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                         </div>
+                        <span>掌握</span>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <small class="col-xs-3">React、Bootstrap</small>
+            <div class="row React">
+                <div class="skillType col-xs-3">React、Bootstrap</div>
                 <div class="col-xs-9">
                     <div class="progress progress-striped">
                         <div class="progress-bar progress-bar-info" role="progressbar"
-                             aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"
-                             style="width: 65%;">
-                            <span class="sr-only">65% 熟悉</span>
+                             aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
                         </div>
+                        <span>熟悉</span>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <small class="col-xs-3">Webpack、Git、Jest</small>
+            <div class="row Webpack">
+                <div class="skillType col-xs-3">Webpack、Git、Jest</div>
                 <div class="col-xs-9">
                     <div class="progress progress-striped">
                         <div class="progress-bar progress-bar-warning" role="progressbar"
-                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                             style="width: 60%;">
-                            <span class="sr-only">60% 熟悉</span>
+                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                         </div>
+                        <span>熟悉</span>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <small class="col-xs-3">HTML5、CSS3、Node.js</small>
+            <div class="row HTML5">
+                <div class="skillType col-xs-3">HTML5、CSS3、Node.js</div>
                 <div class="col-xs-9">
                     <div class="progress progress-striped">
                         <div class="progress-bar progress-bar-danger" role="progressbar"
-                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                             style="width: 35%;">
-                            <span>35%了解</span>
+                             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
                         </div>
+                        <span>了解</span>
                     </div>
                 </div>
             </div>
@@ -267,6 +263,8 @@
     <footer>
 
     </footer>
+    <script type="text/javascript" src="./js/tool.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
 </div>
 
 </body>
